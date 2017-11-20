@@ -83,7 +83,7 @@ public class JsonFileParser implements FileParser{
 			String rootKeyValue = nestedJsonObject.get(rootKey).toString();
 			completeKey = parentNodeName+"."+rootKey;
 			if(isJsonObject(rootKeyValue)){
-				traverseNestedJsonKey(parentNodeName, new JSONObject(rootKeyValue), jsonMap);
+				traverseNestedJsonKey(completeKey, new JSONObject(rootKeyValue), jsonMap);
 			}else if(isJsonArrayObject(rootKeyValue)){
 				JSONArray jsonArray = new JSONArray(rootKeyValue);
 				int depth = 0;
