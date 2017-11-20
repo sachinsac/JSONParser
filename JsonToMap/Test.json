@@ -1,0 +1,239 @@
+{
+	"chart": {
+		"type": "bar",
+		"height": 305
+	},
+	"title": {
+		"text": "<span>Chart Title Here</span>",
+		"align": "left",
+		"margin": 10,
+		"style": {
+			"fontSize": "11px"
+		},
+		"useHTML": true
+	},
+	"credits": {
+		"enabled": false
+	},
+	"xAxis": {
+		"categories": [],
+		"lineColor": "transparent",
+		"tickLength": 0,
+		"labels": {
+			"style": {
+				"fontSize": "12px",
+				"fontFamily": "opensans",
+				"color": "#4a4a4a"
+			}
+		}
+	},
+	"yAxis": {
+		"min": 0,
+		"title": {
+			"text": ""
+		},
+		"lineColor": "transparent",
+		"labels": {
+			"enabled": false
+		},
+		"gridLineWidth": 0,
+		"minorGridLineWidth": 0
+	},
+	"plotOptions": {
+		"bar": {
+			"dataLabels": {
+				"enabled": false,
+				"style": {
+					"textOutline": false,
+					"color": "#555"
+				}
+			}
+		},
+		"series": {
+			
+		}
+	},
+	"series": [],
+	"barChartYTD": {
+		"chart": {
+			"height": 157,
+			"plotBackgroundColor": "#eee",
+			"type": "bar",
+			"marginTop": 71,
+			"spacingBottom": 16
+		},
+		"credits": {
+			"enabled": false
+		},
+		"title": {
+			"align": "left",
+			"margin": 2,
+			"style": {
+				"fontSize": "11px"
+			},
+			"useHTML": true,
+			"text": "<span class='main-title' style='color: #3e4759;font-size:20px;padding-right: 10px;font-family:raleway;text-align:left'>Household Retention</span>"
+		},
+		"subtitle": {
+			"align": "left",
+			"y": 55,
+			"text": "YTD",
+			"style": {
+				"fontFamily": "opensans",
+				"fontSize": "16px",
+				"fontWeight": "bold",
+				"textAlign": "left",
+				"color": "#343434"
+			}
+		},
+		"colors": ["#2FA3DF",
+		"#4254A7"],
+		"legend": {
+			"enabled": false
+		},
+		"plotOptions": {
+			"series": {
+				"pointWidth": 11,
+				"colorByPoint": true,
+				"groupPadding": 0,
+				"pointPadding": 0
+			},
+			"bar": {
+				"dataLabels": {
+					"enabled": false,
+					"style": {
+						"color": "#555",
+						"textOutline": false
+					}
+				}
+			}
+		},
+		"xAxis": {
+			"categories": ["OurFacility",
+			"NationalAverage"],
+			"gridLineColor": "#fff",
+			"gridLineWidth": 1,
+			"labels": {
+				"style": {
+					"fontFamily": "opensans",
+					"fontSize": "12px",
+					"fontWeight": "bold",
+					"textAlign": "left",
+					"color": "#343434"
+				},
+				"useHTML": true
+			},
+			"tick": false,
+			"tickWidth": 0,
+			"title": {
+				"text": null
+			}
+		},
+		"yAxis": {
+			"gridLineWidth": 0,
+			"labels": {
+				"enabled": true
+			},
+			"min": 0,
+			"title": "",
+			"max": 100
+		},
+		"series": [{
+			"data": [4.98,
+			14.37],
+			"colorByPoint": true,
+			"name": "Sector Allocation"
+		}]
+	},
+	"barChartYear": {
+		"chart": {
+			"height": 110,
+			"plotBackgroundColor": "#eee",
+			"type": "bar",
+			"marginTop": 24,
+			"spacingBottom": 16
+		},
+		"credits": {
+			"enabled": false
+		},
+		"title": {
+			"align": "left",
+			"margin": 2,
+			"style": {
+				"fontSize": "11px"
+			},
+			"useHTML": true,
+			"text": ""
+		},
+		"subtitle": {
+			"align": "left",
+			"y": 5,
+			"text": 2016,
+			"style": {
+				"fontFamily": "opensans",
+				"fontSize": "16px",
+				"fontWeight": "bold",
+				"textAlign": "left",
+				"color": "#343434"
+			}
+		},
+		"colors": ["#2FA3DF",
+		"#4254A7"],
+		"legend": {
+			"enabled": false
+		},
+		"plotOptions": {
+			"series": {
+				"pointWidth": 11,
+				"colorByPoint": true,
+				"groupPadding": 0,
+				"pointPadding": 0
+			},
+			"bar": {
+				"dataLabels": {
+					"enabled": false,
+					"style": {
+						"color": "#555",
+						"textOutline": false
+					}
+				}
+			}
+		},
+		"xAxis": {
+			"categories": ["OurFacility",
+			"NationalAverage"],
+			"gridLineColor": "#fff",
+			"gridLineWidth": 1,
+			"labels": {
+				"style": {
+					"fontFamily": "opensans",
+					"fontSize": "12px",
+					"fontWeight": "bold",
+					"textAlign": "left",
+					"color": "#343434"
+				},
+				"useHTML": true
+			},
+			"tick": false,
+			"tickWidth": 0,
+			"title": {
+				"text": null
+			}
+		},
+		"yAxis": {
+			"gridLineWidth": 0,
+			"labels": {
+				"enabled": true
+			},
+			"min": 0,
+			"title": "",
+			"max": 100
+		},
+		"series": [{
+			"data": [4.2,
+			17.27],
+			"colorByPoint": true,
+			"name": "Sector Allocation"
+		}]
+	}
+}
